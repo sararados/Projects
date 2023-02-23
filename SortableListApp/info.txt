@@ -1,0 +1,14 @@
+Project:
+
+1. Create an ordered list
+2. Scramble list items randomly
+3. Allow user to drag and drop an item to a diffrent position
+4. Button to check if items are in correct order.
+5. Show green for correct order and red for wrong.
+
+Learn:
+
+1. DOM Manipulation
+2. Functions in JavaScript
+3. Event Listeners
+4. Array Methods of JavaScript
