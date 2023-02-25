@@ -1,0 +1,13 @@
+Project:
+
+1. Analog Clock with hour,minute, and seconds
+2. In sync with current time
+3. Hour, minute, seconds are always on the move
+
+Learn:
+
+1. Basic Math
+2. Set Interval Method
+3. Date Functions
+4. Style transform property
+5. working with html ids in js
