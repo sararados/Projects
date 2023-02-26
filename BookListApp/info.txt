@@ -1,0 +1,16 @@
+Project:
+
+1. Add and delete Books
+2. Object Oriented Paradigm
+3. Books class for adding and deleting Books
+4. UI class for Displaying UI like Alerts
+5. Local Storage to save book List on the browser
+
+Learn:
+
+1. OOP
+2. DOM Manipulation
+3. High Order Js Methods
+4. JSON
+5. Set Timeout Method in  Js
+6. Parsing data to LocalStorage
