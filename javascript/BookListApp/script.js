@@ -11,7 +11,6 @@ class UI {
     static displayBooks() {
        
         const books = Store.getBooks();
-        console.log(books);
         books.forEach((book) => UI.addBookToList(book));
     }
 
@@ -57,16 +56,20 @@ class UI {
 // Store Class: Handle storage
 class Store {
     static getBooks() {
-       let book;
-       if(localStorage.getItem('books') === null) {
-            book = [];
-       } else {
-        book = JSON.parse(localStorage.getItem('books'));
-       }
-       return book;
-
-
+    let books;
+    if(localStorage.getItem('books') === null) {
+        books = [];
+    } else {
+        try {
+            books = JSON.parse(localStorage.getItem('books'));
+        } catch(e) {
+            console.log('Error parsing books from local storage', e);
+            books = [];
+        }
+    }
+    return Array.isArray(books) ? books : [];
 }
+
     static addBooks(book) {
         const books = Store.getBooks();
 
