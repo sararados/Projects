@@ -1,0 +1,18 @@
+Project:
+
+1. Play/Pause Functions
+2. Shuffle between songs
+3. Next/Previous Function
+4. Playlist Section
+5. Music Timer
+6. Music Scrolling
+
+Learn:
+
+1. DOM Manipulation
+2. JavaScript Math Functions
+3. Audio Play and Pause Method
+4. Event Listeners
+5. clientWidth DOM Property
+6. Mouse Event Properties
+
